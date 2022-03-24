@@ -1,0 +1,39 @@
+body {
+    width: 80vw;
+    min-width: 800px;   
+    margin: 0 auto;
+    height: 100vh;  
+}
+
+html {
+    /* Root element is the topmost element. in an HTML document this is html Examples of when you want to apply properties to html instead of body element
+    1. When you want to use REM units (relative measurments) Used to scale the font-size property of the root element.
+    2. Applying the background property to the entire viewport
+    */
+    
+    font-size: 10px;
+    background: linear-gradient(133deg,
+    rgba(235, 217, 181, 1) 0%,
+    rgb(136, 189, 162) 50%,
+    rgba(89, 232, 247, 1) 100%
+    )
+}
+
+
+
+h1,
+h2, {
+    font-family: "Raleway", sans-serif;
+    color: #2a2a2a;
+}
+
+/* h2 {
+    font-family: "Raleway", sans-serif;
+    color: #2a2a2a;
+} */
+
+p,
+li {
+    font-family: "Roboto", sans-serif;
+    color: #2a2a2a
+}
